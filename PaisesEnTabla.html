@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="PaisesEnTabla.js"></script>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+    <body>
+        Entra la cantidad de países a visualizar: <input type="number" id="nums" min="1" max="10" width="200px"><br>
+        <h3>TAULA</h3>
+    <table id="tabla" width="600px">
+        <tr>
+            <th>capital</th>
+            <th>pais</th>
+            <th>continente</th>
+        </tr>
+    </table>
+    <button onclick="crearTabla()">Nueva Tabla</button>
+    <button onclick="borrar()">Borrar Tabla</button>
+    </body>
+</html>
